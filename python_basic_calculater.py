@@ -1,6 +1,6 @@
 #python calculater 
-a = int(input("enter the first number:"))
-b = int(input("enter the second number:"))
+a = float(input("enter the first number:"))
+b = float(input("enter the second number:"))
 operator = input("enter the operator:")
 if operator == '+':
     print("the addition of a+b:",a+b)
@@ -18,9 +18,9 @@ else:
 
 #basic arithmetic_operator calculator 
 
-num1=float(input("enter the no 1: "))
-num2=float(input("enter the no 2: "))
-operator=input("enter the operator: ")
+num1 = float(input("enter the no 1: "))
+num2 = float(input("enter the no 2: "))
+operator = input("enter the operator: ")
 
 if operator=='+':
     print(num1+num2)
