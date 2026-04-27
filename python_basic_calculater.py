@@ -14,5 +14,3 @@ elif operator == '%':
     print("the modulus of a%b:",a%b)
 else:
     print("invalid operator:")
-
-
